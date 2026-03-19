@@ -650,7 +650,7 @@ section {
            About Section
            =========================================== */
 .about {
-	background-color: var(--color-primary-light);
+	background-color: var(--color-bg);
 }
 
 
@@ -765,7 +765,7 @@ section {
            Featured Work Section
            =========================================== */
 .work {
-	background-color: var(--color-primary-light);
+	background-color: var(--color-bg);
 }
 
 .work-grid {

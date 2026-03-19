@@ -14,7 +14,7 @@ https://www.tooplate.com/view/2155-modern-musician
 	--color-text: #2c3e44;
 	--color-text-light: #5f7a84;
 	--color-bg: #fafcfd;
-	--color-bg-alt: #234a59;
+	--color-bg-alt: #f1f5f9;
 	--color-white: #ffffff;
 	--color-border: #dce6ea;
 
@@ -650,7 +650,7 @@ section {
            About Section
            =========================================== */
 .about {
-	background-color: var(--color-bg);
+	background-color: var(--color-bg-alt);
 }
 
 
@@ -765,7 +765,7 @@ section {
            Featured Work Section
            =========================================== */
 .work {
-	background-color: var(--color-bg);
+	background-color: var(--color-bg-alt);
 }
 
 .work-grid {

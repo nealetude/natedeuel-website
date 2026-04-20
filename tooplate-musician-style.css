@@ -232,6 +232,12 @@ section {
 	align-items: center;
 }
 
+@media (min-width: 768px) {
+    .hero-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
 .hero-content {
 	max-width: 540px;
 }

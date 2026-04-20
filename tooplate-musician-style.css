@@ -1162,3 +1162,75 @@ section {
 		display: block;
 	}
 }
+
+/* ===========================================
+           Arrangements Section
+           =========================================== */
+.arrangements-grid {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+}
+
+.arrangement-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--space-sm) var(--space-md);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    gap: var(--space-md);
+}
+
+.arrangement-info {
+    flex: 1;
+}
+
+.arrangement-info h3 {
+    margin-bottom: 0.25rem;
+    font-size: 1.0625rem;
+}
+
+.arrangement-credit {
+    font-size: 0.875rem;
+    color: var(--color-text-light);
+    margin-bottom: 0.125rem;
+}
+
+.arrangement-instrumentation {
+    font-size: 0.8125rem;
+    color: var(--color-text-light);
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.arrangement-action {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.5rem;
+    flex-shrink: 0;
+}
+
+.arrangement-price {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-text);
+}
+
+.arrangement-contact-note {
+    font-size: 0.75rem;
+    color: var(--color-text-light);
+}
+
+@media (max-width: 600px) {
+    .arrangement-card {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .arrangement-action {
+        align-items: flex-start;
+    }
+}
